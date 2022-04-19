@@ -32,7 +32,7 @@ while loop:
             robot.turn(180)
         elif color_sensor.color() != color.BLACK:
             robot.turn(15)
-        else:
+    else:
         robot.straight(10)
 
 
